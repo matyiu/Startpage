@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/weather-icons.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Welcome!</title>
+</head>
+<body>
+  <section>
+    <div class="search-group">
+      <i class="fa fa-search icon" aria-hidden="true"></i>
+      <input type="text" class="search" id="search" placeholder="Lurk more...">
+    </div>
+    <div class="row">
+      <div class="card-green">
+        <div class="group">
+          <h2 class="title" id="hour"></h2>
+          <p class="subtitle" id="date"></p>
+        </div>
+        <div class="group">
+          <div class="weather" id="weather">
+          </div>
+          <p class="subtitle" id="loc">Molina de Segura, Murcia (Spain)</p>
+        </div>
+      </div>
+      <div class="card-brown">
+        <div class="cat-group">
+          <h3 class="cat">4chan:</h3>
+          <p><a href="http://boards.4chan.org/g/">/g/</a>, </p>
+          <p><a href="http://boards.4chan.org/sci/">/sci/</a>, </p>
+          <p><a href="http://boards.4chan.org/wg/">/wg/</a></p>
+        </div>
+        <div class="cat-group">
+          <h3 class="cat">Hispachan:</h3>
+          <p><a href="https://www.hispachan.org/t/">/t/</a>, </p>
+          <p><a href="https://www.hispachan.org/c/">/c/</a>, </p>
+          <p><a href="https://www.hispachan.org/a/">/a/</a>, </p>
+          <p><a href="https://www.hispachan.org/v/">/v/</a>, </p>
+          <p><a href="https://www.hispachan.org/g/">/g/</a></p>
+        </div>
+        <div class="cat-group">
+          <h3 class="cat">Reddit:</h3>
+          <p><a href="https://www.reddit.com/">front</a>, </p>
+          <p><a href="https://www.reddit.com/r/books/">books</a>, </p>
+          <p><a href="https://www.reddit.com/r/learnjavascript/">ljs</a></p>
+        </div>
+        <div class="cat-group">
+          <h3 class="cat">Programming:</h3>
+          <p><a href="http://eloquentjavascript.net/">ej</a>, </p>
+          <p><a href="https://github.com/">github</a>, </p>
+          <p><a href="https://github.com/vhf/free-programming-books">pbooks</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="js/search.js"></script>
+  <script src="js/time.js"></script>
+  <script
+			  src="https://code.jquery.com/jquery-3.1.1.min.js"
+			  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+			  crossorigin="anonymous"></script>
+  <script src="js/jquery.simpleWeather.min.js"></script>
+  <script src="js/weather.js"></script>
+</body>
+</html>

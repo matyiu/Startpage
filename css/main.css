@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  background: url('../img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+span.hidden {
+  opacity: 0;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-group {
+  display: block;
+  margin: 40px 0 70px 0;
+  position: relative;
+}
+
+.search-group .icon {
+  font-size: 20px;
+  padding: 15px;
+  background: rgba(53, 124, 136, 1);
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 7px;
+  transform: translateY(-50%);
+  opacity: 0.8;
+  z-index: 2;
+  transition: all 0.5s
+}
+
+.search-group .icon.icon-animation {
+  padding: 0;
+  background: rgba(53, 124, 136, 0);
+}
+
+.search-group .search {
+  width: 0;
+  height: 40px;
+  background: rgba(37, 86, 95, 0.8);;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  padding: 0 10px 0 35px;
+  font-size: 20px;
+  color: #b2b2b2;
+  opacity: 0;
+  transition: all 0.5s
+}
+
+.search-group .search-animation {
+  opacity: 0.8;
+  width: 320px;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+}
+
+.card-green {
+  background-color: rgba(37, 95, 58, 0.7);
+  margin-right: 140px;
+  border-radius: 5px;
+  width: 354px;
+}
+
+.card-green .group {
+  padding: 40px 30px;
+  -webkit-box-sizing: padding-box;
+  box-sizing: padding-box;
+}
+
+.card-green .group:first-child {
+  border-bottom: 2px solid #358853;
+}
+
+.card-green .group .title {
+  font-weight: 700;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.card-green .group .subtitle {
+  font-size: 20px;
+  color: #b2b2b2;
+  text-align: center;
+}
+
+.card-green .group .weather {
+  text-align: center;
+}
+
+.card-green .group .weather .title {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.card-green .group .weather .icon {
+  color: #b2b2b2;
+}
+
+.card-brown {
+  width: 354px;
+  height: auto;
+  padding: 32px;
+  background: rgba(136, 75, 53, 0.7);
+  border-radius: 5px;
+}
+
+.card-brown .cat-group .cat {
+  font-size: 20px;
+  margin-right: 10px;
+  display: inline;
+}
+
+.card-brown .cat-group p {
+  font-size: 16px;
+  display: inline;
+}
+
+.card-brown .cat-group a {
+  color: #e43f23;
+  text-decoration: none;
+}
+
+.card-brown .cat-group a:hover {
+  color: #e46e23;
+}
