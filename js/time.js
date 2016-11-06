@@ -20,7 +20,7 @@
       contador = 0;
     }
 
-    var day = date.getDay() - 1,
+    var day = date.getDate(),
         month = date.getMonth(),
         year = date.getFullYear(),
         dateSubtitle = document.getElementById("date");
